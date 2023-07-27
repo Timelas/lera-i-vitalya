@@ -86,10 +86,10 @@ function Questions() {
                 <span className="question__visible-checkbox"></span>
                 <span className="question__text-span">Шампанское</span>
               </label>
-              <label htmlFor="conguac" className="question__label">
-                <input className="question__unvisible" type="checkbox" name="Коньяк" value="Коньяк" id="conguac"></input>
+              <label htmlFor="jin" className="question__label">
+                <input className="question__unvisible" type="checkbox" name="Джин" value="Джин" id="jin"></input>
                 <span className="question__visible-checkbox"></span>
-                <span className="question__text-span">Коньяк</span>
+                <span className="question__text-span">Джин</span>
               </label>
               <label htmlFor="wiskey" className="question__label">
                 <input className="question__unvisible" type="checkbox" name="Виски" value="Виски" id="wiskey"></input>

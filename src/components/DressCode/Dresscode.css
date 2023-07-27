@@ -53,6 +53,13 @@
   border-bottom: 55px solid #2e5123;
 }
 
+.dresscode__link {
+  text-decoration: none;
+  font-weight: bold;
+  color: #8f3662;
+  cursor: pointer;
+}
+
 @media screen and (max-width: 1700px) {
   .dresscode {
     height: 100vh;
