@@ -1,6 +1,6 @@
 import React from "react";
 import "./Header.css";
-import date from "../../images/headertext_1.svg";
+import date from "../../images/headertext_2.svg";
 import foto from "../../images/foto_3.png";
 
 function Header() {
