@@ -26,8 +26,9 @@
 }
 
 .dresscode__image {
-    object-fit: contain;
+    object-fit: cover;
     height: 45vh;
+    max-width: 250px;
 }
 
 .details__slider {
@@ -95,9 +96,10 @@
         font-size: 35px;
         line-height: 30px;
         font-family: "Spslnewserifc", Helvetica, sans-serif;
-        margin: 10px 0;
+        margin: 5px 0;
         letter-spacing: .7px;
         transform: scaleY(.6);
+        width: 80%;
     }
 
     .details__description {
