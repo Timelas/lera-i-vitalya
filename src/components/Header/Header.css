@@ -11,16 +11,18 @@
 }
 
 .header__image {
-  object-fit: cover;
-  width: 77vw;
-  height: 69vh;
+  object-fit: contain;
+  width: 75vw;
   position: absolute;
   top: 10vw;
   left: 5vw;
 }
 
 .header__date {
-  width: 90vw;
+  position: absolute;
+  top: calc(10vw + 13px);
+  left: calc(5vw + 13px);
+  width: 85vw;
   z-index: 3;
 }
 
