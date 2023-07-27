@@ -20,8 +20,8 @@
 
 .header__date {
   position: absolute;
-  top: calc(10vw + 13px);
-  left: calc(5vw + 13px);
+  top: calc(10vw + 15px);
+  left: calc(5vw + 15px);
   width: 85vw;
   z-index: 3;
 }
