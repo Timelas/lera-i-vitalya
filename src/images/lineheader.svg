@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_Слой_2" data-name="Слой 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 591.87 1029.54">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #d2a901;
+        font-family: Gotham-Thin, Gotham;
+        font-size: 41.17px;
+        font-weight: 200;
+      }
+
+      .cls-1, .cls-2 {
+        stroke: #d2a901;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-3 {
+        letter-spacing: 0em;
+      }
+
+      .cls-4 {
+        letter-spacing: 0em;
+      }
+
+      .cls-5 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-6 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-7 {
+        letter-spacing: -.06em;
+      }
+
+      .cls-2 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1" data-name="Layer 1">
+    <rect class="cls-2" x=".5" y=".5" width="571.27" height="1011.34"/>
+    <text class="cls-1" transform="translate(307.59 1020.81)"><tspan x="0" y="0">21 </tspan><tspan class="cls-6" x="48.66" y="0">с</tspan><tspan class="cls-4" x="71.14" y="0">ен</tspan><tspan class="cls-6" x="120.74" y="0">т</tspan><tspan x="141.57" y="0">яб</tspan><tspan class="cls-3" x="192.29" y="0">р</tspan><tspan x="219.05" y="0">я</tspan></text>
+    <text class="cls-1" transform="translate(556.38 77.38) rotate(90)"><tspan class="cls-7" x="0" y="0">W</tspan><tspan x="39.19" y="0">edding d</tspan><tspan class="cls-5" x="217.08" y="0">a</tspan><tspan x="239.76" y="0">y</tspan></text>
+  </g>
+</svg>

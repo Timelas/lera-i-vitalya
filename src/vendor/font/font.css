@@ -1,0 +1,18 @@
+@font-face {
+  font-family: "Spslnewserifc";
+  src: url(spslnewserifc.ttf) format('ttf'),
+       url(spslnewserifc.woff) format('woff'),
+       url(spslnewserifc.woff2) format('woff2');
+       font-style: normal;
+       font-weight: 200;
+}
+
+@font-face {
+  font-family: "Gotham";
+  src: url(Gotham.ttf) format('ttf'),
+       url(Gotham.woff) format('woff'),
+       url(Gotham.woff2) format('woff2');
+       font-style: normal;
+       font-weight: 200;
+}
+
