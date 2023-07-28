@@ -48,6 +48,7 @@
   justify-self: center;
   align-self: center;
   justify-content: center;
+  font-weight: bold;
 }
 
 .timer__number_var_day {

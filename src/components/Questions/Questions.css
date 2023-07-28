@@ -214,6 +214,13 @@
   margin: 10px 0 0;
 }
 
+.question__link {
+  text-decoration: none;
+  color: #c46017;
+  cursor: pointer;
+  font-weight: bold;
+}
+
 @media screen and (max-width: 1700px) {
   .question {
     padding: 100px 0 0;
@@ -417,13 +424,13 @@
   }
 
   .question__buttons {
-    gap: 10px;
+    gap: 20px;
   }
 
   .question__button {
-    width: 110px;
-    height: 40px;
-    font-size: 11px;
+    width: 145px;
+    height: 45px;
+    font-size: 14px;
     margin: 20px 0 0;
   }
 
