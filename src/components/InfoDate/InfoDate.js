@@ -1,6 +1,6 @@
 import React from "react";
 import where from "../../images/info_1.svg";
-import wedding from "../../images/wedding_1.svg";
+import wedding from "../../images/info.svg";
 import "./InfoDate.css";
 
 function InfoDate() {

@@ -9,8 +9,8 @@ import car from "../../images/car.svg";
 import lineStart from "../../images/start.svg";
 import lineEnd from "../../images/end.svg";
 import lineCenter from "../../images/center.svg";
-import timetable from "../../images/timetable.svg";
-import time from "../../images/time_1.svg";
+import timetable from "../../images/timetable_1.svg";
+import time from "../../images/time.svg";
 
 function Timetable() {
   return (
