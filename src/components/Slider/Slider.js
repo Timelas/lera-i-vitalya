@@ -13,6 +13,7 @@ import slider9 from "../../images/slider9.jpg";
 import slider10 from "../../images/slider10.JPG";
 import slider11 from "../../images/slider11.jpg";
 import slider12 from "../../images/slider12.jpeg";
+import slider13 from "../../images/slider13.JPG";
 import slider14 from "../../images/slider14.jpg";
 import slider15 from "../../images/slider15.jpeg";
 import slider16 from "../../images/slider16.JPG";
@@ -118,7 +119,7 @@ const Gallery = () => {
         <p className="details__description">блондин с голубыми глазами, звонким смехом, острым чувством юмора и домиком в Выборге</p>
       </div>
       <div className="details__slider">
-        <img key={slider12} src={slider12} alt="dresscode" className="dresscode__image"></img>
+        <img key={slider13} src={slider13} alt="dresscode" className="dresscode__image"></img>
         <p className="details__names">СЕСТРА НЕВЕСТЫ АННА</p>
         <p className="details__description">красавица-модница жена, мама Мирона, который не прошел возрастной ценз мероприятия</p>
       </div>
@@ -168,12 +169,12 @@ const Gallery = () => {
         <p className="details__description">сориентирует по любой болячке, готовится к триатлону</p>
       </div>
       <div className="details__slider">
-        <img key={slider21} src={slider21} alt="dresscode" className="dresscode__image"></img>
+        <img key={slider23} src={slider23} alt="dresscode" className="dresscode__image"></img>
         <p className="details__names">ДРУГ СЕМЬИ КОНСТАНТИН (МУЖ ВАЛЕРИИ)</p>
         <p className="details__description">и станцует, и споет, и на гитаре сыграет</p>
       </div>
       <div className="details__slider">
-        <img key={slider22} src={slider22} alt="dresscode" className="dresscode__image"></img>
+        <img key={slider24} src={slider24} alt="dresscode" className="dresscode__image"></img>
         <p className="details__names">ОДНОГРУППНИЦА НЕВЕСТЫ МАРИЯ</p>
         <p className="details__description">специалист по вкусному кофе и криптовалюте, поддержит абсолютно любую тему</p>
       </div>

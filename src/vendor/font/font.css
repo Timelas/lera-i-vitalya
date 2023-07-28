@@ -16,3 +16,13 @@
        font-weight: 200;
 }
 
+@font-face {
+  font-family: "BernhardC";
+  src: url(Bernhardc.ttf) format('ttf'),
+       url(Bernhardc.woff) format('woff'),
+       url(Bernhardc.woff2) format('woff2');
+       font-style: normal;
+       font-weight: 200;
+}
+
+
