@@ -74,7 +74,7 @@ background-color: #fbcd00;
 
 @media screen and (max-width: 1300px) {
   .timer {
-    padding: 60px 0 0;
+    padding: 60px 0;
   }
 
   .timer__title {
