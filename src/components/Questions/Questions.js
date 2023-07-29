@@ -1,6 +1,5 @@
 import React, {useState, useRef} from "react";
 import question from "../../images/questions.svg";
-import flower from "../../images/flowerPull.svg";
 import "./Questions.css";
 
 function Questions() {
@@ -8,16 +7,42 @@ function Questions() {
   const scriptUrl = "https://script.google.com/macros/s/AKfycbw4YBw3ml02Fh9N4A3KHx022Cd60n2eVJxjRwVAWVyrvdGLqwBkyAzlMiiS1b7L9OS7PA/exec"
   const [loading, setLoading] = useState(false);
   const [isFormVisible, setisFormVisible] = useState(true);
+  const [isSubmitChange, setIsSubmitChange] = useState(true);
 
-  const handleSubmit = (e) =>{
-      e.preventDefault();
-      setLoading(true);
+  function renderSubmitNo () {
+    setIsSubmitChange(false)
+  }
+
+  function renderSubmitYes() {
+    setIsSubmitChange(true)
+  }
+
+  const handleSubmitNo = (e) =>{
+    e.preventDefault()
+    setLoading(true)
+    const FormNew = new FormData(formRef.current);
+    FormNew.append('Form', 'rsvp-no');
+
+    fetch(scriptUrl, {
+    method: 'POST',
+    body: FormNew,
+
+}).then(res => {
+        setLoading(false);
+        setisFormVisible(false);
+    })
+    .catch(err => console.log(err))
+}
+  
+  const handleSubmitYes = (e) =>{
+      e.preventDefault()
+      setLoading(true)
       const FormNew = new FormData(formRef.current);
-      FormNew.append('Form', 'questions');
+      FormNew.append('Form', 'rsvp-yes');
 
       fetch(scriptUrl, {
       method: 'POST',
-      body: new FormData(formRef.current),
+      body: FormNew,
 
   }).then(res => {
           setLoading(false);
@@ -34,7 +59,7 @@ function Questions() {
             <img src={question} alt="опрос" className="question__header"></ img>
             <p className="question__text">По всем имеющимся вопросам, пожалуйста, обращайтесь к нашим организаторам: <br /> Лилия <a href="tel:+7(999)232-36-27" className="question__link">+7(999) 232-36-27</a><br />Яна <a href="tel:+7(931)372-11-32" className="question__link">+7(931) 372-11-32</a></p>
             <p className="question__text">Пожалуйста, подтвердите своё присутствие до <p className="question__undertext">10 сентября 2023 года</p><br /><br />Если вы будете не один, то укажите оба имени.</p>
-            <form className="question__form" ref={formRef} onSubmit={handleSubmit}>
+            <form className="question__form" ref={formRef} onSubmit={isSubmitChange ? handleSubmitYes : handleSubmitNo}>
             <p className="question__string question__string-name">
               <label htmlFor="who" className="question__label-input question__label-input-name">Имя и фамилия</label>
               <input type="text" name="Имя и Фамилия" id="who" className="question__input" minLength={2}></input>
@@ -119,15 +144,15 @@ function Questions() {
             </fieldset>
             </div>
             <div className="question__buttons">
-              <button type="submit" className="question__button" disabled={loading ? true : false}>{loading ? "Отправка..." : "С удовольствием приду"}</button>
-              <button type="submit" className="question__button" disabled={loading ? true : false}>{loading ? "Отправка..." : "К сожалению, не смогу"}</button>
+              <button className="question__button" name="Принято" onClick={renderSubmitYes} disabled={loading ? true : false}>{loading ? "Отправка..." : "С удовольствием приду"}</button>
+              <button className="question__button" name="Отклонено" onClick={renderSubmitNo} disabled={loading ? true : false}>{loading ? "Отправка..." : "К сожалению, не смогу"}</button>
             </div>
           </form> 
         </div>
         :
         <div>
           <img src={question} alt="опрос" className="question__header"></ img>
-          <p className="question__text">Форма отправлена!</p>
+          <p className="question__text question__text-form">Форма отправлена!</p>
         </div>
         }
       </div>

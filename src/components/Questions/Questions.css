@@ -440,4 +440,8 @@
   .question__string-other {
     margin: 0;
   }
+
+  .question__text-form {
+    width: 100%;
+  }
 }
