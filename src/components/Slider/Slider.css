@@ -69,6 +69,18 @@
     .slider__btn-next {
         top: 170px;
     }
+
+    .details__description {
+        font-size: 18px;
+        line-height: 20px;
+        width: 90%;
+        margin: 0;
+    }
+
+    .details__slider {
+        border-radius: 10px;
+        margin: 25px 28vw 0;
+      }
 }
 
 @media screen and (max-width: 1300px) {

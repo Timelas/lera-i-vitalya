@@ -220,6 +220,21 @@
   font-weight: bold;
 }
 
+.question__return {
+  font-size: 16px;
+  line-height: 37px;
+  background-color: inherit;
+  border: none;
+  cursor: pointer;
+  transition: opacity .4s;
+  margin: 0;
+  color: black;
+}
+
+.question__return:hover {
+  opacity: .6;
+}
+
 @media screen and (max-width: 1700px) {
   .question {
     padding: 100px 0 0;
@@ -343,6 +358,11 @@
   .question__label-input-name {
     margin: 0;
   }
+
+  .question__return {
+    font-size: 10px;
+    line-height: 28px;
+  }
 }
 
 @media screen and (max-width: 800px) {
@@ -444,4 +464,10 @@
   .question__text-form {
     width: 100%;
   }
+
+  .question__return {
+    font-size: 8px;
+    line-height: 22px;
+  }
+
 }

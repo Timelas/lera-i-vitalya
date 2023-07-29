@@ -39,19 +39,20 @@
 
 @media screen and (max-width: 1700px) {
   .dresscode {
-    height: 100vh;
+    height: 100%;
     padding: 0;
   }
 
   .dresscode__description {
-    font-size: 28px;
+    font-size: 20px;
+    line-height: 35px;
     width: 50%;
-    margin: 70px 0 0;
+    margin: 30px 0;
   }
 
   .dresscode__header {
-    height: 90px;
-    padding: 130px 0 0;
+    height: 60px;
+    padding: 70px 0 0;
   }
 }
 
@@ -86,6 +87,7 @@
 
 @media screen and (max-width: 800px) {
   .dresscode {
+    height: 100vh;
     padding: 60px 0 55px;
   }
 

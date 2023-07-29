@@ -1,6 +1,6 @@
 .slider__btn-pre-dress {
-    width: 150px;
-    height: 150px;
+    width: 40px;
+    height: 40px;
     position: absolute;
     top: 320px;
     left: 20px;
@@ -13,8 +13,8 @@
 }
 
 .slider__btn-next-dress {
-    width: 150px;
-    height: 150px;
+    width: 40px;
+    height: 40px;
     position: absolute;
     top: 320px;
     right: 20px;
@@ -33,37 +33,17 @@
 
 @media screen and (max-width: 1700px) {
     .slider__btn-pre-dress {
-        top: 170px;
+        top: 130px;
     }
     
     .slider__btn-next-dress {
-        top: 170px;
-    }
-}
-
-@media screen and (max-width: 1300px) {
-    .slider__btn-pre-dress {
-        width: 90px;
-        height: 90px;
-        top: 140px;
+        top: 130px;
     }
 
-    .slider__btn-next-dress {
-        width: 90px;
-        height: 90px;
-        top: 140px;
-    }
-}
-
-@media screen and (max-width: 10240px) {
-    .slider__btn-pre-dress {
-        width: 80px;
-        height: 80px;
-    }
-
-    .slider__btn-next-dress {
-        width: 80px;
-        height: 80px;
+    .dresscode__image-dress {
+        width: 20vw;
+        height: 55vh;
+        margin: 0 0 40px;
     }
 }
 
