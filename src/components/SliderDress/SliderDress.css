@@ -22,8 +22,8 @@
 }
 
 .dresscode__image-dress {
-    width: 33.4vw;
-    height: 40vh;
+    width: 20vw;
+    height: 45vh;
     object-fit: cover;
 }
 
@@ -78,6 +78,12 @@
         width: 40px;
         height: 40px;
         top: 140px;
+    }
+
+    .dresscode__image-dress {
+        width: 33.4vw;
+        height: 45vh;
+        object-fit: cover;
     }
 }
 

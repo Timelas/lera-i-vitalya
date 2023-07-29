@@ -6,13 +6,13 @@
 }
 
 .info-date__where {
-  width: 100vw;
-  height: 100vw;
+  width: 100vh;
+  height: 100vh;
   object-fit: contain;
 }
 
 .info-date__wedding {
-  width: 100vw;
+  width: 100vh;
   object-fit: contain;
 }
 

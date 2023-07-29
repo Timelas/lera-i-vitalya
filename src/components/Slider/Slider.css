@@ -1,8 +1,8 @@
 .slider__btn-pre {
-    width: 150px;
-    height: 150px;
+    width: 70px;
+    height: 70px;
     position: absolute;
-    top: 320px;
+    top: 350px;
     left: 10px;
     transform: rotate(180deg);
     cursor: pointer;
@@ -13,10 +13,10 @@
 }
 
 .slider__btn-next {
-    width: 150px;
-    height: 150px;
+    width: 70px;
+    height: 70px;
     position: absolute;
-    top: 320px;
+    top: 350px;
     right: 10px;
     cursor: pointer;
 }
@@ -28,12 +28,12 @@
 .dresscode__image {
     object-fit: cover;
     height: 45vh;
-    max-width: 250px;
-    max-height: 350px;
+    max-width: 450px;
+    max-height: 550px;
 }
 
 .details__slider {
-    width: 74vw;
+    width: 40vw;
     min-height: 65vh;
     background-color: #fff;
     display: flex;
@@ -41,10 +41,25 @@
     justify-content: center;
     align-items: center;
     border-radius: 10px;
-    margin: 0 13vw;
+    margin: 25px 20vw 0;
     padding: 10px;
     box-sizing: border-box;
   }
+
+  .details__description {
+    font-size: 24px;
+    line-height: 20px;
+    width: 90%;
+    margin: 0;
+}
+
+.details__names {
+    font-size: 35px;
+    line-height: 37px;
+    font-family: "BernhardC", Helvetica, sans-serif;
+    margin: 20px 0;
+    width: 80%;
+}
 
 @media screen and (max-width: 1700px) {
     .slider__btn-pre {
@@ -70,7 +85,7 @@
     }
 }
 
-@media screen and (max-width: 10240px) {
+@media screen and (max-width: 1024px) {
     .slider__btn-pre {
         width: 80px;
         height: 80px;
@@ -109,4 +124,25 @@
         width: 90%;
         margin: 0;
     }
+
+    .dresscode__image {
+        object-fit: cover;
+        height: 45vh;
+        max-width: 250px;
+        max-height: 350px;
+    }
+
+    .details__slider {
+        width: 74vw;
+        min-height: 65vh;
+        background-color: #fff;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+        margin: 0 13vw;
+        padding: 10px;
+        box-sizing: border-box;
+      }
 }

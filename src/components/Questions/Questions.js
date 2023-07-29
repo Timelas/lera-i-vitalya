@@ -57,7 +57,8 @@ function Questions() {
         { isFormVisible ?
           <div className="question__container">
             <img src={question} alt="опрос" className="question__header"></ img>
-            <p className="question__text">По всем имеющимся вопросам, пожалуйста, обращайтесь к нашим организаторам: <br /> Лилия <a href="tel:+7(999)232-36-27" className="question__link">+7(999) 232-36-27</a><br />Яна <a href="tel:+7(931)372-11-32" className="question__link">+7(931) 372-11-32</a></p>
+            <p className="question__text">По всем имеющимся вопросам, пожалуйста, обращайтесь к нашим организаторам: <br /> Лилия <a href="tel:+7(999)232-36-27" className="question__link">+7(999) 232-36-27</a><br />Яна <a href="tel:+7(931)372-11-32" className="question__link">+7(931) 372-11-32</a>
+            <br /><br />Ваши пожелания в конвертах помогут нам осуществить мечту. Пожалуйста, не дарите живые цветы! Замените их на бутылку белого или розового сухого вина</p>
             <p className="question__text">Пожалуйста, подтвердите своё присутствие до <p className="question__undertext">10 сентября 2023 года</p><br /><br />Если вы будете не один, то укажите оба имени.</p>
             <form className="question__form" ref={formRef} onSubmit={isSubmitChange ? handleSubmitYes : handleSubmitNo}>
             <p className="question__string question__string-name">
