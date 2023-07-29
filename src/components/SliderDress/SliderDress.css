@@ -64,6 +64,7 @@
         width: 33.4vw;
         height: 45vh;
         object-fit: cover;
+        margin: 0 0 40px;
     }
 }
 
