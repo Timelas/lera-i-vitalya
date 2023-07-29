@@ -30,6 +30,21 @@
   .header {
     height: calc(100vh - 70px);
   }
+
+  .header__image {
+    height: 70vh;
+    position: absolute;
+    top: 5px;
+    left: 8vw;
+  }
+  
+  .header__date {
+    position: absolute;
+    top: 20px;
+    left: calc(5vw + 15px);
+    height: 85vh;
+    z-index: 3;
+  }
 }
 
 @media screen and (max-width: 1300px) and (orientation:landscape) {
