@@ -5,7 +5,7 @@ import "./Questions.css";
 
 function Questions() {
   const formRef = useRef(null)
-  const scriptUrl = "https://script.google.com/macros/s/AKfycby_BYT6LzPV3FZHn66CPeQcYu6bE5b3ZBjuvAoU08L_RdiIzQ7viRTg5mtfej77Y_iK/exec"
+  const scriptUrl = "https://script.google.com/macros/s/AKfycbw4YBw3ml02Fh9N4A3KHx022Cd60n2eVJxjRwVAWVyrvdGLqwBkyAzlMiiS1b7L9OS7PA/exec"
   const [loading, setLoading] = useState(false);
   const [isFormVisible, setisFormVisible] = useState(true);
 
@@ -37,7 +37,7 @@ function Questions() {
             <form className="question__form" ref={formRef} onSubmit={handleSubmit}>
             <p className="question__string question__string-name">
               <label htmlFor="who" className="question__label-input question__label-input-name">Имя и фамилия</label>
-              <input type="text" name="Имя и Фамилия" id="who" required className="question__input" minLength={2}></input>
+              <input type="text" name="Имя и Фамилия" id="who" className="question__input" minLength={2}></input>
             </p>
             <div>
             <fieldset className="question__string"><p className="question__span">Что предпочитаете из еды?</p>
@@ -68,7 +68,7 @@ function Questions() {
               </label>
             </fieldset>
             <p className="question__string">
-              <input type="text" name="Какая" id="alerg" className="question__input"></input>
+              <input type="text" name="Иное/есть аллергия" id="alerg" className="question__input"></input>
             </p>
             <fieldset className="question__string"><p className="question__span">Что предпочитаете из напитков?</p>
               <label  htmlFor="white" className="question__label">
@@ -108,12 +108,12 @@ function Questions() {
               </label>
               <div className="question__other">
                 <label htmlFor="otheralco" className="question__label question__label-other">
-                  <input className="question__unvisible" type="checkbox" name="Иное" value="Иное" id="otheralco"></input>
+                  <input className="question__unvisible" type="checkbox" name="Иное" value="Да" id="otheralco"></input>
                   <span className="question__visible-checkbox"></span>
                   <span className="question__text-span">Иное</span>
                 </label>
                 <p className="question__string question__string-other">
-                  <input type="text" name="Какая" id="alerg" className="question__input"></input>
+                  <input type="text" name="Иные напитки" id="alerg" className="question__input"></input>
                 </p>
               </div>
             </fieldset>
