@@ -82,7 +82,7 @@ function Questions() {
                 <span className="question__visible-radio"></span>
                 <span className="question__text-span">Рыба</span>
               </label>
-              <label htmlFor="checken" className="question__label">
+              <label htmlFor="chicken" className="question__label">
                 <input className="question__unvisible" type="radio" name="Еда" value="Птица" id="chicken"></input>
                 <span className="question__visible-radio"></span>
                 <span className="question__text-span">Птица</span>
