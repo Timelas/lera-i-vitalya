@@ -70,6 +70,7 @@ background-color: #fbcd00;
 .timer__text {
   font-size: 28px;
   margin: 10px 0 0;
+  font-weight: bold;
 }
 
 @media screen and (max-width: 1300px) {
